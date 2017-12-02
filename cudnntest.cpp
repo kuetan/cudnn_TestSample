@@ -11,8 +11,6 @@ int main() {
   const int minibatch_size = 1;
   const int feature_num = 2;
   const int in_size = 3;
-  //float allsize = (float)minibatch_size*feature_num*in_size*in_size;
-  float allsize = 6;
 
   // 入力
   float srcData[minibatch_size][feature_num][in_size][in_size] = {
